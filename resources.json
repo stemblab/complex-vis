@@ -1,4 +1,7 @@
 [
-    "main.html",
-    "main.css"
+    "color.coffee",
+    "image.coffee",
+    "main.coffee",
+    "main.css",
+    "main.html"
 ]
