@@ -16,71 +16,11 @@
  clear:both;
 }
 
-/*
-
-.center_column {
-    width: 960px;
-    margin: 0 auto;
+#plot {
+   width: 100%;
+   text-align:center;
 }
 
-
-#main_function {
-    margin-top: 10px;
-    margin-left: 30px;
+#canvas {
+   display: inline;
 }
-
-.info_text {
-    color: #aaa;
-}
-
-#gallery {
-    margin-top: 30px;
-}
-
-#examples {
-    margin-top: 0px;
-}
-
-.example {
-    display: inline-block;
-    width: 220px;
-    margin-bottom: 30px;
-    vertical-align: bottom;
-}
-
-
-.mathjax_container {
-    margin-bottom: -15px;
-    width: 200px; 
-    height: 45px;
-    font-size: 10pt;
-    overflow: visible;
-}
-
-.canvas {
-    vertical-align: middle;
-}
-
-.slider_thumb {
-    position: relative;
-    display: inline-block;
-    width: 122px;    
-}
-
-.slider_text {
-    margin-left: 10px;
-}
-
-
-*/
-
-/*.ui-slider .ui-slider-handle {
-    height: 12px;
-    width: 12px;
-    padding-left: 1px;
-}*/
-
-/*.ui-slider-horizontal {
-    height: .6em;
-}*/
-
