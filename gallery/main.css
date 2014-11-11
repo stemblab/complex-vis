@@ -1,0 +1,28 @@
+#text {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.left_col {
+   float:left;
+   width:450px;
+}
+
+.right_col {
+   float:right;
+   width:450px;
+}
+
+.clear {
+ clear:both;
+}
+
+#gallery {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.thumb {
+    height:200px;
+    width:200px;
+}
