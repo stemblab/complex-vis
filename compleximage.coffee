@@ -1,6 +1,6 @@
 class $blab.ComplexFunctionImage
 
-    constructor: (@spec, @colorMap) ->
+    constructor: (@spec) ->
         # spec:
         #   canvasId
         #   pixelsPerSquare
@@ -10,6 +10,7 @@ class $blab.ComplexFunctionImage
         #   saturation, lightness, opacity (functions of r)
         
         # Canvas
+        @spec.canvasId ?= "canvas"
         @pixelsPerSquare = @spec.pixelsPerSquare ? 2
         @image = new Image @spec.canvasId, @pixelsPerSquare
         @pxMax = @image.xMax()
@@ -38,9 +39,9 @@ class $blab.ComplexFunctionImage
                 v = zf.abs().x
                 hsla =
                     h: @angle zf
-                    s: @colorMap.saturation v
-                    l: @colorMap.lightness v
-                    a: @colorMap.opacity v
+                    s: @spec.colorMap.saturation v
+                    l: @spec.colorMap.lightness v
+                    a: @spec.colorMap.opacity v
                 @image.setSquareHsla px, py, hsla
         
     angle: (z) ->
