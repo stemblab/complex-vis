@@ -3,19 +3,35 @@
   <h2>Visualization of Complex Functions</h2>
 
   <div class="left_col">
+
+    Sometimes called [https://en.wikipedia.org/wiki/Domain_coloring,
+    domain coloring], complex functions can be visualized by mapping
+    the argument and phase to a color model.
+
+    In the mapping below we use the
+    [https://en.wikipedia.org/wiki/HSL_and_HSV, HSLA] model, because
+    it is consistent with HTML canvas. The hue (H) is mapped to the
+    argument. The saturation (S), lightness (L) and opacity (A) are
+    editable and are roughly consistent with
+    [http://www.cs.amherst.edu/~djv/FTAp.pdf, Velleman's approach].
+
     <ul>
-      <li>one</li>
-      <li>two</li>
-      <li>three</li>
+      <li> Edit on left; shift+enter to compute.
+      <li> After editing, save as a gist to keep/share. </li>
+      <li> See also the [gallery, gallery] of examples. </li>
     </ul>
+
   </div>
 
   <div class="right_col">
-    <canvas id="canvas" width="300", height="300"></canvas>
+    <div id="plot">
+      <canvas id="canvas" width="300", height="300"></canvas>
+    </div>
   </div>
 
   <div class="clear">
 
+  <hr>
 
   <div class="left_col">
     <div data-file="main.coffee"></div>
@@ -26,6 +42,10 @@
   </div>
 
   <div class="clear">
+
+  <hr>
+  
+  Powered by <a href="http://puzlet.org/">Puzlet</a>.
 
 </div>
 
