@@ -1,21 +1,28 @@
-.center_column {
+#text {
     width: 960px;
     margin: 0 auto;
 }
 
 .left_col {
-    float: left;
-    width: 400px;
+   float:left;
+   width:450px;
 }
 .right_col {
-    float: right;
-    width: 560px;
-    margin-top: 40px;
+   float:right;
+   width:450px;
 }
 
 .clear {
-    clear: both;
+ clear:both;
 }
+
+/*
+
+.center_column {
+    width: 960px;
+    margin: 0 auto;
+}
+
 
 #main_function {
     margin-top: 10px;
@@ -41,9 +48,10 @@
     vertical-align: bottom;
 }
 
+
 .mathjax_container {
     margin-bottom: -15px;
-    width: 200px;  /* ZZZ larger for main? */
+    width: 200px; 
     height: 45px;
     font-size: 10pt;
     overflow: visible;
@@ -63,6 +71,9 @@
     margin-left: 10px;
 }
 
+
+*/
+
 /*.ui-slider .ui-slider-handle {
     height: 12px;
     width: 12px;
@@ -72,6 +83,4 @@
 /*.ui-slider-horizontal {
     height: .6em;
 }*/
-
-/*!end*/ (css)
 

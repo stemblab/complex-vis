@@ -1,6 +1,5 @@
 [
-    "color.coffee",
-    "image.coffee",
+    "compleximage.coffee",
     "main.coffee",
     "main.css",
     "main.html"

@@ -1,26 +1,4 @@
-#!vanilla
-plotFunction = ->
-    canvasId = "canvas"
-    f = identity
-    xMax = 2
-    new ComplexFunctionImage {canvasId, f, xMax}, colorMap
-
-colorMap =
-    saturation: (r) -> 1
-    lightness: (r) -> 0.5 * (1 - 1 / (1 + 25*log10(2*r + 1)))
-    opacity: (r) -> 1 / (1 + 4*log10(1+2*r))    
-
-complex = numeric.complex
-log10 = (x) -> Math.log(x)/Math.LN10
-
-identity = (z) -> z
-
-# Comment vanilla directive to use these functions (overloaded ops).
-square = (z) -> z*z
-
-cube = (z) -> z*z*z
-
-class ComplexFunctionImage
+class $blab.ComplexFunctionImage
 
     constructor: (@spec, @colorMap) ->
         # spec:
@@ -102,9 +80,3 @@ class Image
         
     xMax: -> @width/@pixelsPerSquare
     yMax: -> @height/@pixelsPerSquare
-
-$blab.ComplexFunctionImage = ComplexFunctionImage
-#plotFunction()
-
-#!end (coffee)
-
