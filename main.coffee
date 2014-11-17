@@ -9,7 +9,8 @@ colorMap =
 xMax = 2
 f = (z) -> (z*z-1)*(z-2-j).pow(2)/(z*z+2+j)
 
- #3. <u>Plot</u>.
+ #3. <u>Plot</u>
+ # Shift+enter (this panel must have focus). 
 new $blab.ComplexFunctionImage
     colorMap: colorMap
     xMax: xMax
