@@ -1,4 +1,1 @@
-complex-vis
-===========
-
-Interactive visualization of complex functions
+![](https://github.com/stemblab/complex-vis/blob/gh-pages/thumb.png)
