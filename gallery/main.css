@@ -26,3 +26,7 @@
     height:200px;
     width:200px;
 }
+
+.foot .puzlet-link { float:left }
+.foot .org-link { float:right }
+
